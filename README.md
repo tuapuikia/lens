@@ -1,13 +1,10 @@
-# Kontena Lens
+# Lens
 
-[Kontena Lens](https://www.kontena.io/lens/) provides all necessary tools and technology to take control of your Kubernetes clusters. Ensure your cluster is properly setup and configured. Enjoy increased visibility and hands-on troubleshooting capabilities. Use built-in user management and integration APIs with support to most standard external authentication systems.
+[![Build Status](https://dev.azure.com/lensapp/lensapp/_apis/build/status/lensapp.lens?branchName=master)](https://dev.azure.com/lensapp/lensapp/_build/latest?definitionId=1&branchName=master)
 
-[![Kontena Lens - The Ultimate Dashboard for Kubernetes](./images/screenshot.png)](https://youtu.be/04v2ODsmtIs)
+Lens - The free, smart desktop application for managing Kubernetes clusters.
 
-
-## What makes Kontena Lens special?
-
-Many people might compare Kontena Lens to [Kubernetes Dashboard](https://github.com/kubernetes/dashboard) open source project since they both deliver UI to Kubernetes. But Kontena Lens is more than just an UI. It's the only management system you’ll ever need to take control of your Kubernetes clusters:
+## What makes Lens special?
 
 * Amazing usability and end user experience
 * Real-time cluster state visualization
@@ -15,11 +12,18 @@ Many people might compare Kontena Lens to [Kubernetes Dashboard](https://github.
 * Terminal access to nodes and containers
 * Fully featured role based access control management
 * Dashboard access and functionality limited by RBAC
-* Professional support available
 
-## Further Information
-- [Website](https://www.kontena.io/lens)
-- [Slack](https://slack.kontena.io/)
+## Installation
+
+Download a pre-built package from the [releases](https://github.com/lensapp/lens/releases) page. Lens can be also installed via [snapcraft](https://snapcraft.io/kontena-lens) (Linux only).
+
+## Development
+
+> Prerequisities: Nodejs v12, make, yarn
+
+* `make dev` - builds and starts the app
+* `make test` - run tests
 
 ## Contributing
-Bug reports and pull requests are welcome on GitHub at https://github.com/kontena/lens.
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/lensapp/lens.
